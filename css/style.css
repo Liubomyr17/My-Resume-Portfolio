@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto+Condensed&display=swap");
+
+body {
+  background-image: url(..//img/bg-body.jpg);
+}
+
+#profile {
+  background: #cf455c;
+  /* background-image: url(../img/header-shadow.png); */
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
+
+img {
+  width: 120px;
+}
+
+.about {
+  float: left;
+  margin-top: 30px;
+  width: 490px;
+  margin-left: 20px;
+}
+
+.about .photo-inner {
+  float: left;
+  /* background: url(..//img/photo-inner.png) no-repeat; */
+  width: 214px;
+  height: 214px;
+  padding: 12px 0 0 19px;
+}
+
+.about h1 {
+  font-weight: 900;
+  color: white;
+  line-height: 34px;
+  margin-top: 8px;
+  margin-left: -20px;
+}
+
+.about h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+  line-height: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.about p {
+  font-size: 14px;
+  margin-top: 15px;
+  color: white;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info {
+  float: left;
+  margin-top: 30px;
+  width: 310px;
+  min-height: 230px;
+  margin-left: 10px;
+  padding: 20px 0 19px 20px;
+}
+
+.personal-info li {
+  line-height: 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: left;
+  width: 293px;
+}
+
+.personal-info li label {
+    color: white;
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
