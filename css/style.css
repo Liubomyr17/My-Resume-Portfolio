@@ -330,6 +330,7 @@ h6 {
   letter-spacing: 5px;
   padding: 6px 27px;
   font-size: 25px;
+  width: 100%;
 }
 .ex-box h2 {
   background: #cf455c;
@@ -523,6 +524,25 @@ button.setting-icon {
 .color-box.main {
     margin-left: -44px;
 }
+
+#portfolio-list {
+    width: 820px;
+    overflow: hidden;
+}
+
+#portfolio-list li {
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #e5e5e5;
+    height: 185px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+
+
+
 /* color scheeme */
 button#yellow-color {
   background: #edde45;
