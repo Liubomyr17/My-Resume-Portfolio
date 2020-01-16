@@ -5,6 +5,10 @@ body {
   background-image: url(..//img/bg-body.jpg);
 }
 
+a, a:hover {
+    text-decoration: none;
+}
+
 #container {
   margin: 0 auto;
   width: 860px;
@@ -525,6 +529,10 @@ button.setting-icon {
     margin-left: -44px;
 }
 
+#portfolio {
+    padding: 31px;
+}
+
 #portfolio-list {
     width: 820px;
     overflow: hidden;
@@ -540,6 +548,88 @@ button.setting-icon {
     margin-bottom: 30px;
     width: 180px;
 }
+
+#portfolio-list li:hover {
+    border-bottom: 1px solid #cf455c;
+    height: 185px;
+}
+
+#portfolio-list img {
+    background-color: white;
+    height: 120px;
+    width: 185px;
+}
+#portfolio-list li:hover .title {
+    color: #cf455c;
+}
+
+#portfolio-list li .title {
+font-size: 14px;
+margin-top: 15px;
+font-weight: 400;
+color: #3a3a3a;
+font-family: 'Roboto Condensed', sans-serif;
+text-transform: uppercase;
+}
+
+#portfolio-list li .categorie {
+font-size: 11px;
+line-height: 25px;
+color: #999;
+}
+
+.cats-filter {
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.cats-filter li a {
+    float: left;
+    margin-right: 7px;
+    color: white;
+    background-color: #777;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.cats-filter li a:hover {
+    text-decoration: none;
+}
+
+.cats-filter li a.current {
+background-color: #cf455c;
+}
+
+.extra-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
