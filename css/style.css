@@ -645,6 +645,15 @@ background-color: #cf455c;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.contact-info a {
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
 #map {
     height: 300px;
     margin-bottom: 25px;
